@@ -37,4 +37,4 @@ class Prancha:
         self._fabricacao = fabricacao
 
     def __str__(self):
-        return f"marca --> {self._marca}, comprimento --> {self._comprimento}, cor --> {self._cor}, valor --> {self._valor}, fabricacao --> {self._fabricacao}"
+        return f"Marca da prancha:{self._marca} \nComprimento: {self._comprimento} \nCor: {self._cor} \nValor: R${self._valor} \nOrigem de Fabricação: {self._fabricacao}"
