@@ -222,9 +222,8 @@ def main():
         praias_mais_selecionadas_do_pais = pais.praias_mais_selecionadas(quantidade_escolhida)
         if len(praias_mais_selecionadas_do_pais) > 0:
           praias_mais_selecionadas.extend(praias_mais_selecionadas_do_pais)
-      print(f"Praias mais selecionadas de acordo com a quantidade {quantidade_escolhida}:")
-      for praia_mais_selecionada in praias_mais_selecionadas:
-        print(f"{praia_mais_selecionada}")
+          for praia_mais_selecionada in praias_mais_selecionadas:
+            print(f"Praias mais selecionadas de acordo com a quantidade {quantidade_escolhida}: {praia_mais_selecionada}")
 
     elif opcao_escolhida == "2":
       nome_surfista = input("Digite o nome do surfista campeão:")
