@@ -32,3 +32,6 @@ class Pais:
     def adicionar_praia(self, praia):
       self._praias.append(praia)
       praia.set_pais(self)
+
+    def __str__(self):
+        return f"{self._nome}"

@@ -49,5 +49,5 @@ class Surfista:
             print(campeonato)
 
     def __str__(self):
-        return f"nome --> {self._nome}, idade --> {self._idade}"
+        return f"{self._nome}, {self._idade} anos"
 

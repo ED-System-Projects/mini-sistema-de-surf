@@ -23,4 +23,4 @@ class Praia:
         self._num_campeonatos_realizados = num_campeonatos_realizados
 
     def __str__(self):
-        return f"nome --> {self._nome}"
+        return f"{self._nome}"

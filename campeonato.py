@@ -63,7 +63,7 @@ class Campeonato:
             print(s)
 
     def __str__(self):
-        return f"nome --> {self._nome_do_campeonato}, premio --> {self._premio}, praia --> {self._praia}, campeao --> {self._campeao}"
+        return f"{self._nome_do_campeonato} \nPremio: U${self._premio:.2f} \nRealizado na praia: {self._praia} \nCampeão: {self._campeao}"
 
       
       
